@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamper Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="header">
+    <a class="header-logo-link" href="index.html"><img class="header-logo" src="images/tamper-logo.png"
+        alt="header-logo"></a>
+    <nav class="navigation display-links">
+      <ul class="navigation-list">
+        <li class="navigation-item"><a class="navigation-link" href="index.html">Početna</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="contact.html">Kontakt</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#galerija" id="page-one-links">Galerija</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#lokacija" id="page-one-links">Lokacija</a></li>
+
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="burger-menu-icon js-burger-menu-icon display-menu">
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+  </div>
+
+  <nav class="off-screen-navigation js-navigation">
+    <ul class="off-screen-list">
+      <li class="off-screen-item"><a class="off-screen-link" href="index.html" id="main-link">Početna</a></li>
+      <li class="off-screen-item"><a class="off-screen-link" href="contact.html" id="main-link">Kontakt</a></li>
+      <li class="off-screen-item"><a class="off-screen-link" href="#galerija" id="side-link">Galerija</a></li>
+      <li class="off-screen-item"><a class="off-screen-link" href="#lokacija" id="side-link">Lokacija</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header end -->
+
+  <!-- Main -->
+  <main>
+
+    <!-- Section one -->
+
+    <section class="section-one" id="galerija">
+      <h1 class="galery-heading">Galerija</h1>
+      <div class="container">
+        <div class="wrapper">
+          <img class="galery-image" src="galery/galery-1.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-2.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-3.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-4.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-5.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-6.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-7.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-8.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-9.jpg" alt="slide">
+          <img class="galery-image" src="galery/galery-10.jpg" alt="slide">
+        </div>
+        
+        <div class="sign-holder">
+          <p class="slider-text">Prijatan ambijent</p>
+          <img class="sign" src="images/tamper-press-copy.png" alt="">
+          <p class="slider-text">Proveren kvalitet</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section one end -->
+
+    <!-- Section two -->
+
+    <section class="section-two" id="lokacija">
+      <h1 class="location">Lokacija</h1>
+      <div class="map"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.697317079065!2d20.462470776602284!3d44.80735687702347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7b33c95a1ebb%3A0xf5bbb8fed4d5cd08!2sTamper%20Specialty%20Coffee%20%26%20Brunch!5e0!3m2!1ssr!2srs!4v1742135900909!5m2!1ssr!2srs"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="info">
+          <p class="info-text">Adresa: Resavska 32, Beograd 11040</p>
+          <p class="info-text">Kontakt telefon: 011 402 0134</p>
+          <p class="info-text">E-mail: tamper@coffee.com</p>
+
+          <div class="work-time">
+            <p class="time">
+              Radno vreme:
+            </p>
+            <div class="time-button js-time-button">
+              <span class="button-span bs-1 js-button-span"></span>
+              <span class="button-span bs-2 js-button-span"></span>
+            </div>
+          </div>
+          <div class="time-container js-time-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section two end -->
+
+  </main>
+  <!-- Main end -->
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="footer-holder footer-holder-1">
+      <img class="footer-logo" src="images/tamper-press-copy.png" alt="footer-logo">
+      <hr class="logo-line">
+      <p class="footer-text"><a class="footer-contact-link" href="contact.html">Posetite nas!</a></p>
+    </div>
+
+    <hr class="line">
+
+    <div class="footer-holder footer-holder-2">
+      <p class="footer-info">&#169; <a href="#" class="footer-link">Politika privatnosti</a>.Sva prava su zadržana
+        &#169;</p>
+    </div>
+
+    <hr class="line">
+
+    <div class="footer-holder footer-holder-3">
+      <a target="_blank" href="https://www.facebook.com/tampercoffee2020/" class="fa fa-facebook"></a>
+      <a target="_blank" href="https://www.instagram.com/tampercoffee2020/" class="fa fa-instagram"></a>
+      <a target="_blank" href="https://rs.linkedin.com/company/tamper-coffee-academy" class="fa fa-linkedin"></a>
+    </div>
+  </footer>
+
+  <!-- footer end -->
+  <script type="module" src="scripts/contact.js"></script>
+</body>
+
+</html>

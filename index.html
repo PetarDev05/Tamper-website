@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamper Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="header">
+    <a class="header-logo-link" href="index.html"><img class="header-logo" src="images/tamper-logo.png" alt="header-logo"></a>
+    <nav class="navigation display-links">
+      <ul class="navigation-list">
+        <li class="navigation-item"><a class="navigation-link" href="index.html">Početna</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#menu-link" id="page-one-links">O nama</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#menu" id="page-one-links">Meni</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="contact.html">Kontakt</a></li>
+
+        
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="burger-menu-icon js-burger-menu-icon display-menu">
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+  </div>
+
+  <nav class="off-screen-navigation js-navigation">
+    <ul class="off-screen-list">
+      <li class="off-screen-item"><a class="off-screen-link" href="index.html" id="main-link">Početna</a></li>
+      <li class="off-screen-item"><a class="off-screen-link" href="#menu-link" id="side-link">O nama</a></li>
+      <li class="off-screen-item"><a class="off-screen-link" href="#menu" id="side-link">Meni</a></li>
+      <li class="off-screen-item"><a class="off-screen-link" href="contact.html" id="main-link">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header end -->
+
+  <!-- Main section -->
+
+  <main>
+    <!-- Section one -->
+
+    <section class="section-one">
+      <img class="hero-image" src="images/tamper-press.png" alt="hero-image">
+      <img class="hero-text" src="images/tamper-text.png" alt="hero-text">
+      <p class="section-one-paragraph">Najbolja kafa u Beogradu</p>
+      <a href="#menu"><button class="menu-button">Pogledajte meni</button></a>
+    </section>
+
+    <!-- Section one end -->
+
+    <!-- Section two -->
+
+    <section class="section-two" id="menu-link">
+      <h1 class="about-us">O nama</h1>
+      <div class="about-holder">
+        <div class="about-container about1">
+          <img class="about-image" src="images/tamper-cup.png" alt="image">
+          <p class="about-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid natus sequi odit ea
+            placeat totam. Voluptatem porro dolorum distinctio possimus, natus nam qui iure assumenda, commodi dicta
+            impedit voluptate harum!</p>
+        </div>
+
+        <div class="about-container about2">
+          <p class="about-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium dicta,
+            ratione suscipit a sapiente rem praesentium magnam aut quidem quasi, esse et itaque incidunt accusantium
+            asperiores porro. Nulla, a.</p>
+          <img class="about-image" src="images/tamper-exterier.png" alt="image">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Section two end -->
+
+    <!-- Section three -->
+
+    <section class="section-three js-section-three" id="menu">
+
+      <nav class="menu-navigation js-menu-navigation">
+        <h1 class="menu-heading">Meni</h1>
+        <div class="menu-holder js-menu-holder"></div>
+      </nav>
+
+
+      <div class="menu-container js-menu-container">
+
+        <div class="button-appear js-button-appear">
+          <span class="appear-lines line-1 js-span"></span>
+          <span class="appear-lines line-2 js-span"></span>
+        </div>
+
+        <div class="menu js-menu">
+          <h2 class="menu-item-name js-menu-item-name"></h2>
+          <div class="products-holder js-products-holder">
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Section three end -->
+  </main>
+
+  <!-- Main section end -->
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="footer-holder footer-holder-1">
+      <img class="footer-logo" src="images/tamper-press-copy.png" alt="footer-logo">
+      <hr class="logo-line">
+      <p class="footer-text"><a class="footer-contact-link" href="contact.html">Posetite nas!</a></p>
+    </div>
+
+    <hr class="line">
+
+    <div class="footer-holder footer-holder-2">
+      <p class="footer-info">&#169; <a href="#" class="footer-link">Politika privatnosti</a>.Sva prava su zadržana
+        &#169;</p>
+    </div>
+
+    <hr class="line">
+
+    <div class="footer-holder footer-holder-3">
+      <a target="_blank" href="https://www.facebook.com/tampercoffee2020/" class="fa fa-facebook"></a>
+      <a target="_blank" href="https://www.instagram.com/tampercoffee2020/" class="fa fa-instagram"></a>
+      <a target="_blank" href="https://rs.linkedin.com/company/tamper-coffee-academy" class="fa fa-linkedin"></a>
+    </div>
+  </footer>
+
+  <!-- footer end -->
+  <script type="module" src="scripts/home.js"></script>
+</body>
+
+</html>
