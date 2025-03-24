@@ -3,8 +3,6 @@ export function showMenu() {
   const burgerIcon = document.querySelector('.js-burger-menu-icon');
   const burgerLink = document.querySelectorAll('.js-off-screen-link');
 
-  const offLink = document.querySelectorAll('.js-off');
-
   burgerIcon.addEventListener('click', () => {
     burgerMenu.classList.toggle('active');
     burgerIcon.classList.toggle('active');
@@ -15,10 +13,5 @@ export function showMenu() {
       burgerMenu.classList.toggle('active');
       burgerIcon.classList.toggle('active');
     });
-  });
-
-  offLink.addEventListener('click', () => {
-    burgerMenu.classList.toggle('active');
-    burgerIcon.classList.toggle('active');
   });
 }
